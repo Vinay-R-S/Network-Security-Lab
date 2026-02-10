@@ -10,3 +10,8 @@ Build a network with hybrid topology, using network devices (Hubs/Switches/route
 NAT
 
 <img src="Images/Lab-2.png" alt="Lab 2">
+
+## Lab 3 - Socket Programming   
+
+<img src="Images/Lab-3-Client.png" alt="Lab 3">
+<img src="Images/Lab-3-Server.png" alt="Lab 3">
