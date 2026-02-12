@@ -9,7 +9,7 @@
 // openssl rsa -pubout -in private.pem -out public.pem
 // Move the public.pem file from WSL to Windows directory where the client Python is running from
 // Then, give the below command on WSL to build the executable
-// gcc Lab3_Exp2_Asym_Server_WSL.c -lssl -lcrypto -o asym_server -Wno-deprecated-declarations
+// gcc Lab4_Exp2_Asym_Server_WSL.c -lssl -lcrypto -o asym_server -Wno-deprecated-declarations
 // Now run it using: ./asym_server first before running the client program on Windows
 
 #include <stdio.h>

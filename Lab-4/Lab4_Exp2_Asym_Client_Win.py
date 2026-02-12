@@ -1,15 +1,15 @@
-# Lab 3: Exp2 Asymmetric Key RSA
+# Lab 4: Exp2 Asymmetric Key RSA
 # The below package should have been installed prior to running this program
 # This program is to be run on Windows after running the Server first on WSL
 # Install the below library before running this python program
 # pip install cryptography
-# python Lab3_Exp2_Asym_Client_Win.py
+# python Lab4_Exp2_Asym_Client_Win.py
 
 import socket
 from cryptography.hazmat.primitives import serialization, hashes
 from cryptography.hazmat.primitives.asymmetric import padding
 
-HOST = '172.28.218.152'  # Change it to WSL IP address by using ifconfig cmd
+HOST = '172.30.209.150'  # Change it to WSL IP address by using ifconfig cmd
 PORT = 65432
 
 # Load the server's public key from public.pem

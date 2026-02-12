@@ -1,4 +1,4 @@
-# Lab 3: Exp1 Client Symmetric Key AES
+# Lab 4: Exp1 Client Symmetric Key AES
 # Prior to running this program make sure the below package is installed
 # Client program should be run only after the Server is running on WSL
 # On Windows command prompt give the below command.
@@ -9,7 +9,7 @@ import socket
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 
-HOST = '172.28.218.152'  # Change it to WSL IP address by using ifconfig cmd
+HOST = '172.30.209.150'  # Change it to WSL IP address by using ifconfig cmd
 PORT = 65431
 
 # Same key and IV as in the Server written in C
