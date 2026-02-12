@@ -1,9 +1,9 @@
-// Lab 3: Exp1 Server Symmetric Key AES
+// Lab 4: Exp1 Server Symmetric Key AES
 // Before running the below command make sure the open SSL lib is installed on WSL
 // sudo apt-get update
 // sudo apt-get install libssl-dev
 // On WSL give the below command to compile and build the executable
-// gcc Lab3_Exp1_Sym_Server_WSL.c -lssl -lcrypto -o sym_server 
+// gcc Lab4_Exp1_Sym_Server_WSL.c -lssl -lcrypto -o sym_server 
 // Now run it using: ./sym_server first before running the client program on Windows
 
 #include <stdio.h>

@@ -3,7 +3,7 @@
 # Client program should be run only after the Server is running on WSL
 # On Windows command prompt give the below command.
 # pip install cryptography
-# python Lab3_Exp1_Sym_Client_Win.py
+# python Lab4_Exp1_Sym_Client_Win.py
 
 import socket
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes

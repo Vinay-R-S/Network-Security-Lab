@@ -1,4 +1,4 @@
-// Lab 3: Exp2 Asymmetric Key RSA
+// Lab 4: Exp2 Asymmetric Key RSA
 // Before running the below command make sure the open SSL lib is installed on WSL
 // sudo apt-get update
 // sudo apt-get install libssl-dev

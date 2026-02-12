@@ -12,8 +12,11 @@ from cryptography.hazmat.primitives.asymmetric import padding
 HOST = '172.30.209.150'  # Change it to WSL IP address by using ifconfig cmd
 PORT = 65432
 
+import os
+
 # Load the server's public key from public.pem
-with open("public.pem", "rb") as key_file:
+key_path = os.path.join(os.path.dirname(__file__), "public.pem")
+with open(key_path, "rb") as key_file:
     public_key = serialization.load_pem_public_key(key_file.read())
 
 # Encrypt the message with the server's public key
